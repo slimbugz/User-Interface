@@ -157,7 +157,7 @@
         /* Your code starts here! */
         
         .navigation {
-            margin: 20px auto;
+            margin: 20px;
             width: 100%;
             text-align: center;
             font-size: 20px;
@@ -165,7 +165,7 @@
         }
         
         img {
-            margin-left: 450px;
+            margin-left: 300px;
             padding: 10px;
         }
         
@@ -196,7 +196,6 @@
             padding: 10px 10px 10px 10px;
             width: 45%;
             display: inline-block;
-            float: right;
         }
         
         .headmaster {
@@ -215,24 +214,66 @@
         }
         
         .top-content {
-            margin: 0px 0px 0px 0px;
+            margin: 0px;
+            /* border: 1px solid green; */
         }
         
         .features {
-            border: 1px solid red;
-            margin: 20px 0;
+            /* border: 1px solid red; */
+            margin: 20px 0px;
             width: 45%;
-            padding: 20px;
+            padding: 5px;
             line-height: 1.25;
-            margin-right: 450px;
+            display: inline-block;
         }
         
         .about {
-            border: 1px solid blue;
-            margin: 20px 0;
+            /* border: 1px solid blue; */
+            margin: 20px 2%;
             width: 45%;
-            padding: 20px;
+            padding: 5px;
             line-height: 1.25;
             display: inline-block;
-            margin-left: 600px;
+        }
+        
+        .bottom-content {
+            margin: 0px;
+            /* border: 1px solid green; */
+        }
+        
+        .services {
+            /* border: 1px solid red; */
+            margin: 20px 0px;
+            width: 25%;
+            padding: 10px;
+            line-height: 1.25;
+            display: inline-block;
+        }
+        
+        .product {
+            /* border: 1px solid blue; */
+            margin: 20px 2%;
+            width: 25%;
+            padding: 10px;
+            line-height: 1.25;
+            display: inline-block;
+        }
+        
+        .vision {
+            /* border: 1px solid blue; */
+            margin: 20px 2%;
+            width: 25%;
+            padding: 10px;
+            line-height: 1.25;
+            display: inline-block;
+        }
+        
+        .contact {
+            margin: 5px 2%;
+            padding: 10px;
+        }
+        
+        footer {
+            margin: 5px 2%;
+            padding: 10px;
         }
